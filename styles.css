@@ -1,3 +1,31 @@
 body{
-    background-color: aqua;
+    background-color: rgb(16, 17, 17);
+}
+
+div{
+    height: 33.33vh;
+}
+
+input[type=number]{
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    color: white;
+    font-size: 8em;
+    text-align: center;
+    border: 0;
+}
+
+.fahrenheit {
+    /* border-top:3px solid white ;
+    border-bottom: 3px solid white; */
+    margin-top: 10px;
+}
+
+.kelvin{
+    margin-top:5px;
+}
+
+::-webkit-input-placeholder{
+    color: #312b2b;
 }
